@@ -65,7 +65,7 @@
    
     if(!audio) return; //stop function if no audio associated with key
 
-     console.log(audio);
+     audio.currentTime = 0; //rewind audio to start
 
      audio.play();
 
